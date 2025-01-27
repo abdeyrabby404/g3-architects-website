@@ -7,3 +7,32 @@
     font-style: normal;
   }
   
+/* shared style */
+.dark2{
+    color: #424242;
+}
+.flex{
+    display: flex;
+}
+.bg{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header style */
+.navbar{
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.nav_links{
+    gap: 30px;
+}
+
+.banner,.navbar{
+    max-width: 1140px;
+    margin: 0 auto;
+}
