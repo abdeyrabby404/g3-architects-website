@@ -8,6 +8,9 @@
   }
   
 /* shared style */
+.dark1{
+    color: #131313;
+}
 .dark2{
     color: #424242;
 }
@@ -19,8 +22,16 @@
 }
 
 /* header style */
+
+/* navbar style */
+.brand{
+    color: #131313;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
 .navbar{
     justify-content: space-between;
+    align-items: center;
 }
 nav ul li{
     list-style: none;
@@ -32,7 +43,20 @@ nav ul li a{
     gap: 30px;
 }
 
-.banner,.navbar{
+/* banner style */
+.banner, .navbar{
     max-width: 1140px;
     margin: 0 auto;
+}
+.banner img{
+    margin-top: 30px;
+    width: 100%;
+}
+.banner_content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner_title{
+    font-size: 4rem;
 }
