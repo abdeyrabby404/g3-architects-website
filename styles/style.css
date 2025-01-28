@@ -97,7 +97,8 @@ nav ul li a{
 }
 
 /* team features title edit */
-.team_features_title{
+
+.section_title{
     font-size: 3rem;
 }
 .quick_list{
@@ -111,7 +112,7 @@ nav ul li a{
     font-weight: 700;
     color: #FF900E;
 }
-.team_features_desc{
+.section_desc{
     font-size: 1rem;
     margin-bottom: 32px;
 }
@@ -130,7 +131,6 @@ nav ul li a{
     .team_container{
         text-align: center;
     }
-
     .team_features{
         width: 100%;
         margin-left: 0px;
