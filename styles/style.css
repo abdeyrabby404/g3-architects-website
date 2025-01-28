@@ -148,6 +148,22 @@ nav ul li a{
     max-width: 540px;
     margin-bottom: 100px;
 }
+.sponsdescwidth{
+    max-width: 543px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+.sponsor_info{
+    text-align: center;
+}
+.sponsor_images{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
 
 /* Responsive section  */
 
