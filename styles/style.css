@@ -148,6 +148,8 @@ nav ul li a{
     max-width: 540px;
     margin-bottom: 100px;
 }
+
+/* Sponsor Style */
 .sponsdescwidth{
     max-width: 543px;
     margin: 0 auto;
@@ -160,9 +162,19 @@ nav ul li a{
 .sponsor_images{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    justify-content: space-around;
+    gap: 150px;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+.foot{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+    margin-bottom: 130px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Responsive section  */
@@ -193,5 +205,13 @@ nav ul li a{
     }
     .facts_card{
         margin: 0 300px;
+    }
+    .sponsor_images{
+        grid-template-columns: repeat(1,1fr);
+        gap: 100px;
+    }
+    .sponsor_images{
+        margin: 0 auto;
+        width: 200px;
     }
 }
